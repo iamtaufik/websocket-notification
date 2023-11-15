@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Chat</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 id="name"></h1>
+    <form id="form">
+      <input type="text" id="input" placeholder="Message" />
+      <button>Send</button>
+    </form>
+    <ul id="messages"></ul>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      const socket = io();
+      const name = prompt('What is your name?');
+      const nameHeading = document.getElementById('name').textContent = name;
+      const form = document.getElementById('form');
+      const messages = document.getElementById('messages');
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const input = document.getElementById('input');
+        socket.emit('chat message', input.value, name);
+        input.value = '';
+      });
+
+      socket.on('chat message', function (msg,name) {
+        const item = document.createElement('li');
+        item.textContent = `${name}: ${msg}`;
+        messages.appendChild(item);
+
+        window.scrollTo(0, document.body.scrollHeight);
+      });
+    </script>
+  </body>
+</html>

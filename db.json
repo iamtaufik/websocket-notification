@@ -1,0 +1,15 @@
+[
+  { "id": 1, "user_id": 1, "title": "Driver sudah sampai", "body": "Hai, driver kamu sudah sampai dilokasi", "is_read": true },
+  { "id": 2, "user_id": 1, "title": "Yey kamu sudah sampai di tujuan", "body": "Jangan lupa untuk memberi rating ya", "is_read": true },
+  { "id": 3, "user_id": 1, "title": "Pembayaran Berhasil", "body": "Saldo kamu sudah berkurang sebesar Rp. 10.000", "is_read": true },
+  { "id": 4, "user_id": 2, "title": "Driver sudah sampai", "body": "Hai, driver kamu sudah sampai dilokasi", "is_read": true },
+  { "id": 5, "user_id": 2, "title": "Yey kamu sudah sampai di tujuan", "body": "Jangan lupa untuk memberi rating ya", "is_read": true },
+  { "id": 6, "user_id": 2, "title": "Pembayaran Gagal", "body": "Saldo kamu tidak cukup", "is_read": true },
+  { "id": 7, "user_id": 1, "title": "Pembayaran Berhasil", "body": "Pembayaran untuk order 1 berhasil dilakukan, slado berkurang Rp. 100.000", "is_read": true },
+  { "id": 8, "user_id": 2, "title": "Pembayaran Berhasil", "body": "Pembayaran untuk order 1 berhasil dilakukan, slado berkurang Rp. 100.000", "is_read": true },
+  { "id": 9, "user_id": 2, "title": "Pembayaran Berhasil 2", "body": "Pembayaran untuk order 1 berhasil dilakukan, slado berkurang Rp. 100.000", "is_read": true },
+  { "id": 10, "user_id": 2, "title": "Pembayaran Berhasil 3", "body": "Pembayaran untuk order 1 berhasil dilakukan, slado berkurang Rp. 100.000", "is_read": true },
+  { "id": 11, "user_id": 2, "title": "Pembayaran Berhasil 4", "body": "Pembayaran untuk order 1 berhasil dilakukan, slado berkurang Rp. 100.000", "is_read": true },
+  { "id": 12, "user_id": 3, "title": "Pembayaran Berhasil ", "body": "Pembayaran untuk order 1 berhasil dilakukan, slado berkurang Rp. 100.000", "is_read": true },
+  { "id": 13, "user_id": 3, "title": "Pembayaran Berhasil 2", "body": "Pembayaran untuk order 1 berhasil dilakukan, slado berkurang Rp. 100.000", "is_read": true }
+]

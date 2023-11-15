@@ -1,0 +1,8 @@
+POST http://localhost:3000/notification
+Content-Type: application/json
+
+{
+    "user_id": 3,
+    "title": "Pembayaran Berhasil 2",
+    "body": "Pembayaran untuk order 1 berhasil dilakukan, slado berkurang Rp. 100.000"
+}
